@@ -23,4 +23,4 @@
 |49| [字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/)||
 |94|[二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)||
 |242| [有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/description/)| sort后再比较 $O(Nlog N)$; 使用Counter函数计算st字符数(但是时间复杂度高）|
-|589| [N叉树的前序遍历](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/description/)| |
+|589| [N叉树的前序遍历](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/description/)| 递归；迭代|
