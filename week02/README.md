@@ -21,6 +21,7 @@
 |---|---|------|
 |1|[两数之和](https://leetcode-cn.com/problems/two-sum/description/)| for each a: check if target-a exists in nums; [hash解法遍历列表同时查字典](https://leetcode.com/problems/two-sum/discuss/96/HashtablePython5-lines)|
 |49| [字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/)|使用defaultdict：sorted(str)作为key|
+|剑指Offer 49| [丑数](https://leetcode-cn.com/problems/chou-shu-lcof/)| |
 |94|[二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)| 递归；迭代|
 |144|[二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)| 递归；迭代|
 |242| [有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/description/)| sort后再比较 $O(Nlog N)$; 使用Counter函数计算st字符数(但是时间复杂度高）|
