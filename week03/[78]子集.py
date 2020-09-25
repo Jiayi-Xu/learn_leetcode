@@ -49,4 +49,37 @@ class Solution(object):
         generate(nums, 0, result, [])
 
         return result
+
+
+        # 迭代方案：
+        # 对于[1,2,3] 过程为：
+        # []
+        # [] + [1]
+        # [] [1] + [2] [1,2]
+        # [] [1] [2] [1,2] + [3] [1,3] [2,3] [1,2,3]
+
+        """
+        # 迭代版本一
+        result = [[]]
+        # 遍历nums里的元素
+        for num in nums:
+            newsets = []
+            for subset in result:
+                new_subset = subset + [num]
+                newsets.append(new_subset)
+            result.extend(newsets)
+
+        return result
+        
+        """
+
+        """
+        # 迭代版本2
+        result = [[]]
+        # 遍历nums里的元素
+        for val in nums:
+            result += [[val] + sub for sub in result]
+
+        return result
+        """
 # leetcode submit region end(Prohibit modification and deletion)

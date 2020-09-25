@@ -56,10 +56,14 @@ def divide_conquer(problem, param1, param2, ...):
 
 |#|标题|解决思路|
 |---|---|------|
+|17|[电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)	||
 |22|[括号生成](https://leetcode-cn.com/problems/generate-parentheses/)|递归（设置left,right,n)|
 |50|[Pow(x,n)](https://leetcode-cn.com/problems/powx-n/)|分治法|
+|51|[N皇后](https://leetcode-cn.com/problems/n-queens/)||
 |70|[爬楼梯](https://leetcode-cn.com/problems/two-sum/description/)| 递归（超时）；优化使用动态规划|
 |78|[子集](https://leetcode-cn.com/problems/subsets/)|类似括号题的思路，给n个格子，可选可不选|
 |98|[验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/)|递归|
 |104|[二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)|递归(返回左边的最大深度和右边的最大深度的最大值 +1)|
 |111|[二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/)|递归考虑三种情况；深度优先搜索:遍历整棵树，记录最小深度|
+|169|[多数元素](https://leetcode-cn.com/problems/majority-element/description/)|哈希；排序取n/2|
+|226| [翻转二叉树]()| 左右子树不断交换位置|
