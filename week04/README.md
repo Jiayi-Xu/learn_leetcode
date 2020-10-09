@@ -75,12 +75,14 @@ def BFS(tree):
 |#|标题|解决思路|
 |---|---|------|
 |33|[搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)|二分查找|
+|55|[跳跃游戏](https://leetcode-cn.com/problems/jump-game/)|贪心算法|
+|74|[搜索二维矩阵](https://leetcode-cn.com/problems/search-a-2d-matrix/)|拉直后进行二分查找，再转换对应的row和col|
 |102|[二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/#/description)	||
 |122|[买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/description/)|贪心算法|
 |127|[单词接龙](https://leetcode-cn.com/problems/word-ladder/description/)|BFS|
 |200|[岛屿数量](https://leetcode-cn.com/problems/number-of-islands/)|DFS|
 |455|[分发饼干](https://leetcode-cn.com/problems/assign-cookies/description/)|贪心算法|
+|529|[扫雷游戏](https://leetcode-cn.com/problems/minesweeper/)||
 |860|[柠檬水找零](https://leetcode-cn.com/problems/lemonade-change/description/)|贪心算法|
 |874|[模拟行走机器人](https://leetcode-cn.com/problems/walking-robot-simulation/description/)|dx,dy的处理|
-||[]()||
 ||[]()||
