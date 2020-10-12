@@ -56,7 +56,7 @@ class Solution(object):
         while queue:
             size = len(queue)
             tmp = []
-            # 按层提取 
+            # 按层提取
             for _ in range(size):
                 node = queue.popleft()
                 tmp.append(node.val)
@@ -68,3 +68,23 @@ class Solution(object):
 
         
 # leetcode submit region end(Prohibit modification and deletion)
+
+"""
+class Solution:
+    def levelOrder(self, root: 'Node') -> List[List[int]]:
+        if not root:
+            return []
+        queue = [root]
+        ans = []
+        level = 0
+        while queue:
+
+            tmp_size = len(queue)
+            ans.append([])
+            for i in range(tmp_size):
+                node = queue.pop(0)
+                ans[level].append(node.val)
+                queue.extend(node.children[:])
+            level += 1
+        return ans
+"""
