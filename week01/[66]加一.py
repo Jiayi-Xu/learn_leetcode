@@ -46,3 +46,22 @@ class Solution(object):
 
 # 执行耗时:12 ms,击败了97.38% 的Python用户
 # 内存消耗:12.8 MB,击败了33.12% 的Python用户
+
+"""
+class Solution:
+    def plusOne(self, digits: List[int]) -> List[int]:
+
+        for i in range(len(digits)-1,-1, -1):
+            # 没有发生进位
+            if (digits[i] + 1) % 10 != 0:
+                # print((digits[i] + 1) % 10)
+                digits[i] += 1
+                return digits
+            else:
+                digits[i] = 0
+
+
+        new_arr = [0 for _ in range(len(digits)+1)]
+        new_arr[0] = 1
+        return new_arr
+"""

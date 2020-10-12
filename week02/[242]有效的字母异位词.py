@@ -55,3 +55,23 @@ class Solution(object):
 
 
 # leetcode submit region end(Prohibit modification and deletion)
+
+"""
+from collections import defaultdict
+class Solution:
+    def isAnagram(self, s: str, t: str) -> bool:
+        s_len = len(s)
+        t_len = len(t)
+
+        if s_len != t_len:
+            return False
+        
+        s_arr = defaultdict(int)
+        t_arr = defaultdict(int)
+
+        for i in range(s_len):
+            s_arr[s[i]] += 1
+            t_arr[t[i]] += 1
+        # print(s_arr, t_arr)
+        return s_arr == t_arr
+"""
