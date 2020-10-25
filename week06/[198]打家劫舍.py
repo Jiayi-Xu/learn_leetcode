@@ -39,7 +39,21 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
+#         只需要当前和前一个状态的结果
+        pre = 0 # a[i-2]
+        now = 0 # a[i]
 
+        for i in nums:
+            pre, now = now, max(now, i + pre)
+        return now
+
+
+
+# leetcode submit region end(Prohibit modification and deletion)
+
+
+# 版本一
+"""
 
         # a[i][0] = max(a[i-1][0], a[i-1][1]) 不同偷a[i][0]
         # a[i][1] = a[i-1][0] + nums[i] 偷a[i][1]
@@ -54,4 +68,20 @@ class Solution(object):
             arr[i][1] = arr[i - 1][0] + nums[i]
 
         return max(arr[-1][0], arr[-1][1])
-# leetcode submit region end(Prohibit modification and deletion)
+"""
+# 版本二
+"""
+        size = len(nums)
+        if size == 0:
+            return 0
+        if size == 1:
+            return nums[0]
+        dp = [0 for _ in nums]
+        dp[0] = nums[0]
+        dp[1] = max(nums[0], nums[1])
+
+        for i in range(2,len(nums)):
+            dp[i] = max(dp[i-1], dp[i-2]+nums[i])
+
+        return dp[-1]
+"""

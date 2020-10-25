@@ -18,6 +18,7 @@
 |53|[最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)|动态规划：max(0,nums[i-]) + nums[i]|
 |62|[不同路径](https://leetcode-cn.com/problems/unique-paths/)|递归（自上而下）；动态规划（自下而上）|
 |63|[不同路径 II](https://leetcode-cn.com/problems/unique-paths-ii/)|动态规划（需要判断是否有障碍物）|
+|64|[最小路径和](https://leetcode-cn.com/problems/minimum-path-sum/)|动态规划dp[i][j] = min(dp[i-1][j], dp[i][j-1])|
 |120|[三角形最小路径和](https://leetcode-cn.com/problems/triangle/)|sub(i,j) = min(sub(i+1,j), sub(i+1,j+1)) + a[i,j]|
 |198|[打家劫舍](https://leetcode-cn.com/problems/house-robber/)|动态规划：【不偷a[i][0]】 a[i][0] = max(a[i-1][0], a[i-1][1]) 【偷a[i][1]】 a[i][1] = a[i-1][0] + nums[i] |
 |1143|[最长公共子序列](https://leetcode-cn.com/problems/longest-common-subsequence/)|动态规划|
