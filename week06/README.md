@@ -22,6 +22,7 @@
 |91|[解码方法](https://leetcode-cn.com/problems/decode-ways/)||
 |120|[三角形最小路径和](https://leetcode-cn.com/problems/triangle/)|sub(i,j) = min(sub(i+1,j), sub(i+1,j+1)) + a[i,j]|
 |198|[打家劫舍](https://leetcode-cn.com/problems/house-robber/)|动态规划：【不偷a[i][0]】 a[i][0] = max(a[i-1][0], a[i-1][1]) 【偷a[i][1]】 a[i][1] = a[i-1][0] + nums[i] |
+|221|[最大正方形](https://leetcode-cn.com/problems/maximal-square/)|动态规划，dp[i][j]代表右下角，由它的左，上，斜对角过渡过来|
 |1143|[最长公共子序列](https://leetcode-cn.com/problems/longest-common-subsequence/)|动态规划|
 ||[]()||
 
