@@ -25,12 +25,9 @@
 |---|---|------|
 ||[]()||
 |36|[有效的数独](https://leetcode-cn.com/problems/valid-sudoku/)|遍历一遍（分box的计算)|
+|37|[解数独](https://leetcode-cn.com/problems/sudoku-solver/#/description)|回溯法|
 |208|[实现Trie](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)|构建Trie（dict)|
 |212|[单词搜索](https://leetcode-cn.com/problems/word-search-ii/)| Trie和DFS|
 ||[]()||
 ||[]()||
-||[]()||
-||[]()||
-||[]()||
-||[]()||
-||[]()||
+
