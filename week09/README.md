@@ -31,7 +31,7 @@ else:
 
 |#|标题|解决思路|
 |---|---|------|
-||[]()||
+|387|[字符串中的第一个唯一字符](https://leetcode-cn.com/problems/first-unique-character-in-a-string/)|hashmap|
 |541|[反转字符串 II](https://leetcode-cn.com/problems/reverse-string-ii/)||
 |709|[转换成小写字母](https://leetcode-cn.com/problems/to-lower-case/)|ord/chr|
 ||[]()||
