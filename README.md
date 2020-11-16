@@ -9,6 +9,7 @@
 |11|[盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water) | 双指针（左右指针不断逼近）⭐️⭐️|
 |15|[三数之和](https://leetcode-cn.com/problems/3sum)| 排序 + 双指针⭐️|
 |17|[电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)	||
+|20|[有效的括号](https://leetcode-cn.com/problems/valid-parentheses/)|栈⭐️|
 |21|[合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists) | 递归（确定好终止条件和循环条件）; 迭代（维护prehead）⭐️⭐️|
 |22|[括号生成](https://leetcode-cn.com/problems/generate-parentheses/)|递归（设置left,right,n)|
 |26|[删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array) | [双指针](https://leetcode.com/problems/remove-duplicates-from-sorted-array/discuss/11751/Simple-Python-solution-O(n)) 指针i指向开始位置，指针j不断后移去找和i位置不同的值⭐️⭐️|
@@ -45,6 +46,7 @@
 |122|[买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/description/)|贪心算法⭐️⭐️|
 |127|[单词接龙](https://leetcode-cn.com/problems/word-ladder/description/)|BFS|
 |144|[二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)| 递归⭐️⭐️；迭代⭐️|
+|146|[LRU缓存机制](https://leetcode-cn.com/problems/lru-cache/)|使用OrderedDict, popitem(last=False)时删除第一个键值对|
 |153|[寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/)|二分查找，找变化点|
 |155|[最小栈](https://leetcode-cn.com/problems/min-stack) | getMin()函数实现再增加一个栈存储每次插入时候的最小值|
 |169|[多数元素](https://leetcode-cn.com/problems/majority-element/description/)|哈希；排序取n/2|
@@ -58,6 +60,8 @@
 |239|[滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum) | 双端队列|
 |242| [有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/description/)| sort后再比较 $O(Nlog N)$; 使用Counter函数计算st字符数(但是时间复杂度高）|
 |283|[移动零](https://leetcode-cn.com/problems/move-zeroes)| 暴力：统计0的个数；用指针j存储非0元素的位置，遍历数组找不为0的值赋值给索引j对应的元素⭐️⭐️|
+|389|[找不同](https://leetcode-cn.com/problems/find-the-difference/)|字符串ASCII差值，异或法|
+|394|[字符串解码](https://leetcode-cn.com/problems/decode-string/)||
 |429|[N叉树的层序遍历](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/)| 队列先进先出deque或者直接用list(queue),queue.pop[0] ⭐️⭐️ |
 |455|[分发饼干](https://leetcode-cn.com/problems/assign-cookies/description/)|贪心算法⭐️⭐️|
 |529|[扫雷游戏](https://leetcode-cn.com/problems/minesweeper/)||
