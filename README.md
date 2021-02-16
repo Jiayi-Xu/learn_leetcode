@@ -69,9 +69,10 @@
 |389|[找不同](https://leetcode-cn.com/problems/find-the-difference/)|字符串ASCII差值，异或法|
 |394|[字符串解码](https://leetcode-cn.com/problems/decode-string/)||
 |429|[N叉树的层序遍历](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/)| 队列先进先出deque或者直接用list(queue),queue.pop[0] ⭐️⭐️ |
-|452|[用最少数量的箭引爆气球](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/)|时间复杂度：O(nlog n),排序的时间复杂度为 O(nlog n)，对所有气球进行遍历并计算答案的时间复杂度为 O(n)|时间复杂度O(nlog n) 空间复杂度O(log n)（因为排序）|
+|452|[用最少数量的箭引爆气球](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/)|时间复杂度：O(nlog n),排序的时间复杂度为 O(nlog n)，对所有气球进行遍历并计算答案的时间复杂度为 O(n)|时间复杂度$O(nlog n)$ 空间复杂度$O(nlog n)$（因为排序）|
 |455|[分发饼干](https://leetcode-cn.com/problems/assign-cookies/description/)|贪心算法⭐️⭐️|
 |529|[扫雷游戏](https://leetcode-cn.com/problems/minesweeper/)||
+|561|[数组拆分 I](https://leetcode-cn.com/problems/array-partition-i/)|排序，然后将下标为 0、2、4...的数相加|$O(nlog n)$排序的时间复杂度|
 |589| [N叉树的前序遍历](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/description/)| 递归；迭代stack倒插children节点⭐️⭐️|
 |641|[设计循环双端队列](https://leetcode.com/problems/design-circular-deque/)| 需要capacity,size,front,rear,data参数，插入判断满，删除判断空|
 |647|[回文子串](https://leetcode-cn.com/problems/palindromic-substrings/)|动态规划：分1，2，大于2个字符的比较|
