@@ -78,6 +78,7 @@
 |647|[回文子串](https://leetcode-cn.com/problems/palindromic-substrings/)|动态规划：分1，2，大于2个字符的比较|
 |860|[柠檬水找零](https://leetcode-cn.com/problems/lemonade-change/description/)|贪心算法⭐️⭐️|
 |874|[模拟行走机器人](https://leetcode-cn.com/problems/walking-robot-simulation/description/)|dx,dy的处理|
+|995|[K 连续位的最小翻转次数](https://leetcode-cn.com/problems/minimum-number-of-k-consecutive-bit-flips/)|翻转奇数次会改变，偶数次变回原值，如果翻转了，用数值2来标记，跳出[0.1]范围|O(1)|
 |1143|[最长公共子序列](https://leetcode-cn.com/problems/longest-common-subsequence/)|动态规划|
 |1370|[上升下降字符串](https://leetcode-cn.com/problems/increasing-decreasing-string/)|设置26个计数桶|O(n)|
 
